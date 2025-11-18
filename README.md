@@ -1,9 +1,9 @@
 # Slinger_temporal_genetic_diversity
 <br>
 
-Data and metadata from a publication in which temporal genetic diversity and variation were studied in the slinger sea bream (Chrysoblephus puniceus, Sparidae) along the east coast of South Africa, with temporal sampling spanning six years. The study employed genetic data from nuclear microsatellite markers and Single Nucleotide Polymorphisms (SNPs) from reduced-representation, double-digest restriction-site associated DNA sequencing (ddRAD, specifically the quaddRAD protocol). <br>
+Data and metadata from a publication in which temporal genetic diversity and variation were studied in the slinger sea bream (_Chrysoblephus puniceus_, Sparidae) along the east coast of South Africa, with temporal sampling spanning six years. The study employed genetic data from nuclear microsatellite markers and Single Nucleotide Polymorphisms (SNPs) from reduced-representation, double-digest restriction-site associated DNA sequencing (ddRAD, specifically using the quaddRAD protocol). <br>
 <br>
-This paper is being submitted to Fisheries Research. Links to the preprints and published article will be inserted here when these are available and if permissible. 
+This paper is being submitted to Fisheries Research. Links to the preprints and published article will be inserted <here>(http) when these are available and if permissible. 
 
 __Single Nucleotide Polymorphism (SNP) data__
 
