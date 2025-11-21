@@ -3,20 +3,35 @@
 
 Data and metadata from a publication in which temporal genetic diversity and variation were studied in the slinger sea bream (_Chrysoblephus puniceus_, Sparidae) along the east coast of South Africa, with temporal sampling spanning six years. The study employed genetic data from nuclear microsatellite markers and Single Nucleotide Polymorphisms (SNPs) from reduced-representation, double-digest restriction-site associated DNA sequencing (ddRAD, specifically using the quaddRAD protocol). <br>
 <br>
-This paper is being submitted to Fisheries Research. Links to the preprints and published article will be inserted (here)<insert link> when these are available and if permissible. 
-
+This paper is being submitted to Fisheries Research. Links to the preprints and published article will be inserted (here)<insert link> when these are available and if permissible. <br>
+<br>
 
 __Single Nucleotide Polymorphism (SNP) data__
 
-The publication provides a more detailed overview of the application of the quaddRAD procedure, library preparation and sequencing. Information given here is primarily aimed at providing context to the data and metadata provided or accessible through this repository and other archives. Raw sequence files were generated through two Illumina MiSeq v3 150-cycle sequencing runs of two libraries. Twelve pools of samples were indexed using modified TruSeq indexes (outer barcodes) and combined into two libraries containing six pools each. Each pool contained 12 samples, which were barcoded using a unique combination of modified Illumina adapters (inner barcodes). Raw sequence read files were provided demultiplexed, using the Illumina indexes (outer barcodes). PCR duplicates were identified and removed using the _clone_filter_ module of STACKS version 2.66. Data were then demultiplexed to the level of individual samples, using inner barcodes, with the STACKS module _process_radtags_. These demultiplexed read files for the individual samples, which were subsequently used for locus reconstruction, variant calling and genotyping, have been submitted to the NCBI-SRA (Sequence Read Archive). Data are available under BioProject PRJNA1338475, with individual accession numbers SRR35751649 to SRR35751567 for BioSample numbers SAMN52440860 to SAMN52441003. The sequence metadata table ('_metadata-15684280-processed-ok.tsv_') for this submission is available in this repository.
+The publication provides a more detailed overview of the application of the quaddRAD procedure, library preparation and sequencing. Information given here is primarily aimed at providing context to the data and metadata provided or accessible through this repository and other archives. Raw sequence files were generated through two Illumina MiSeq v3 150-cycle sequencing runs of two libraries. Twelve pools of samples were indexed using modified TruSeq indexes (outer barcodes) and combined into two libraries containing six pools each. Each pool contained 12 samples, which were barcoded using a unique combination of modified Illumina adapters (inner barcodes). Raw sequence read files were provided demultiplexed, using the Illumina indexes (outer barcodes). PCR duplicates were identified and removed using the _clone_filter_ module of STACKS version 2.66. Data were then demultiplexed to the level of individual samples, using inner barcodes, with the STACKS module _process_radtags_. These demultiplexed read files for the individual samples, which were subsequently used for locus reconstruction, variant calling and genotyping, have been submitted to the NCBI-SRA (Sequence Read Archive). Data are available under BioProject PRJNA1338475, with individual accession numbers SRR35751649 to SRR35751567 for BioSample numbers SAMN52440860 to SAMN52441003. The sequence metadata table ('_metadata-15684280-processed-ok.tsv_') for this submission is available in this repository.<br>
+<br>
+
+__Microsatellite data__ <br>
+<br>
+_Slinger_Microsatellites.xlsx_ contains the microsatellite genotype data and other information in the following fields and arrangement. <br>
+<br>
+Samples are in rows, with population assignments and loci in columns. Each locus (diploid) is presented over two columns, with a sized (amplicon fragment size) and called allele in each. Missing data/alleles are indicated by zero (_0_). <br>
+<br>
+The following microsatellite loci are included:
+SL1: Imperfect dinucleotide repeat
+SL7: Imperfect dinculeotide repeat
+SL25: Imperfect dinucleotide repeat
+SL26: Imperfect dinucleotide repeat
+SL29: Compound dinucleotide repeat
+SL33: Dinucleotide repeat
+SL34: Dinucleotide repeat
+SL35: Compound imperfect dinucleotide repeat
 
 
-__Microsatellite data FROM CRABS - NEED TO UPDATE__ <br>
-<br>
-_Interbasin_crab_genotypes.xlsx_ contains the microsatellite genotype data and other information in the following fields and arrangement. <br>
-<br>
-Samples are in rows, with loci and metadata in columns. Each locus (diploid) is presented over two columns, with a sized (amplicon fragment size) and called allele in each. Missing data/alleles are indicated by zero (_0_). <br>
-<br>
+__Metadata__ <br>
+
+The metadata table, _slinger_metadata.xlsx_, provides information for each of the samples included in the SNP and microsatellite study, in the following fields:<br>
+
 __Sample__ identifies the sample and DNA isolate. <br>
 <br>
 __Population__ indicates the population sample membership of the individual samples as used in the analyses; these being Orange (River), Great Fish upstream, Great Fish downstream, Sundays upstream and Sundays downstream. <br>
